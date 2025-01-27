@@ -1,0 +1,82 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+*.pytest_cache/
+coverage.xml
+nosetests.xml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# IDE files
+.idea/
+*.iml
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# MyPy cache
+.mypy_cache/
+
+# Flask/Django files
+instance/
+.env/
+.env.*.local
+*.migrations/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.stackdump
+*.pid
+
+# Static files (Django)
+staticfiles/
+media/
+
+# Configurations and secrets
+config.json
+settings.py
